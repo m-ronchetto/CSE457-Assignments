@@ -1,0 +1,435 @@
+{
+    "topics": "[(0, '0.008*\"tree\" + 0.007*\"king\" + 0.005*\"sea\" + 0.004*\"happy\" + 0.003*\"dryad\" + 0.003*\"bird\" + 0.003*\"brother\" + 0.003*\"tailor\" + 0.003*\"hunter\" + 0.003*\"two\"'), (1, '0.005*\"child\" + 0.005*\"flower\" + 0.004*\"beautiful\" + 0.004*\"eye\" + 0.004*\"rose\" + 0.004*\"every\" + 0.004*\"young\" + 0.003*\"heart\" + 0.003*\"house\" + 0.003*\"life\"'), (2, '0.004*\"child\" + 0.004*\"woman\" + 0.004*\"house\" + 0.004*\"mother\" + 0.004*\"two\" + 0.004*\"home\" + 0.003*\"last\" + 0.003*\"beautiful\" + 0.003*\"boy\" + 0.003*\"door\"'), (3, '0.007*\"king\" + 0.006*\"princess\" + 0.004*\"father\" + 0.003*\"home\" + 0.003*\"soon\" + 0.003*\"way\" + 0.003*\"last\" + 0.003*\"never\" + 0.003*\"much\" + 0.003*\"found\"'), (4, '0.008*\"bottle\" + 0.005*\"lamp\" + 0.004*\"peasant\" + 0.004*\"year\" + 0.003*\"young\" + 0.003*\"people\" + 0.003*\"first\" + 0.003*\"glass\" + 0.003*\"new\" + 0.003*\"daughter\"')]",
+    "storydata": [
+        {
+            "title": "BINNORIE",
+            "probabilities": [
+                "0.020496584",
+                "0.34001586",
+                "0.39479747",
+                "0.22335385",
+                "0.021336215"
+            ]
+        },
+        {
+            "title": "CAP O' RUSHES",
+            "probabilities": [
+                "0",
+                "0",
+                "0.78353894",
+                "0.18203892",
+                "0.033427566"
+            ]
+        },
+        {
+            "title": "CHILDE ROWLAND",
+            "probabilities": [
+                "0.011246762",
+                "0.124040216",
+                "0.4730751",
+                "0.37062278",
+                "0.02101515"
+            ]
+        },
+        {
+            "title": "EARL MAR'S DAUGHTER",
+            "probabilities": [
+                "0.078780204",
+                "0.18174054",
+                "0.47983262",
+                "0.22205709",
+                "0.037589572"
+            ]
+        },
+        {
+            "title": "FAIRY OINTMENT",
+            "probabilities": [
+                "0.030409507",
+                "0.038932174",
+                "0.5837842",
+                "0.3082506",
+                "0.03862354"
+            ]
+        },
+        {
+            "title": "HENNY-PENNY",
+            "probabilities": [
+                "0",
+                "0",
+                "0.47215462",
+                "0.5003743",
+                "0.024988035"
+            ]
+        },
+        {
+            "title": "HOW JACK WENT TO SEEK HIS FORTUNE",
+            "probabilities": [
+                "0.058135897",
+                "0",
+                "0.5777691",
+                "0.31360573",
+                "0.04946926"
+            ]
+        },
+        {
+            "title": "JACK AND HIS GOLDEN SNUFF-BOX",
+            "probabilities": [
+                "0",
+                "0.021449178",
+                "0.4331623",
+                "0.51650125",
+                "0.028732283"
+            ]
+        },
+        {
+            "title": "JACK AND THE BEANSTALK",
+            "probabilities": [
+                "0.010778565",
+                "0",
+                "0.5340375",
+                "0.4130919",
+                "0.0418851"
+            ]
+        },
+        {
+            "title": "JACK HANNAFORD",
+            "probabilities": [
+                "0.039015133",
+                "0",
+                "0.56349",
+                "0.37973416",
+                "0.016960688"
+            ]
+        },
+        {
+            "title": "JACK THE GIANT-KILLER",
+            "probabilities": [
+                "0.116140604",
+                "0.088698104",
+                "0.22620037",
+                "0.53664714",
+                "0.032313768"
+            ]
+        },
+        {
+            "title": "JOHNNY-CAKE",
+            "probabilities": [
+                "0",
+                "0.035312444",
+                "0.86134017",
+                "0.024283925",
+                "0.078353494"
+            ]
+        },
+        {
+            "title": "KATE CRACKERNUTS",
+            "probabilities": [
+                "0",
+                "0.16600926",
+                "0.5448953",
+                "0.27560124",
+                "0.013056336"
+            ]
+        },
+        {
+            "title": "LAZY JACK",
+            "probabilities": [
+                "0",
+                "0.014387774",
+                "0.5257012",
+                "0.45841628",
+                "0"
+            ]
+        },
+        {
+            "title": "MASTER OF ALL MASTERS",
+            "probabilities": [
+                "0",
+                "0",
+                "0.7455981",
+                "0.14990382",
+                "0.10004333"
+            ]
+        },
+        {
+            "title": "MOLLY WHUPPIE",
+            "probabilities": [
+                "0.05996783",
+                "0",
+                "0.7816792",
+                "0.13371418",
+                "0.024233313"
+            ]
+        },
+        {
+            "title": "MOUSE AND MOUSER",
+            "probabilities": [
+                "0.19422826",
+                "0",
+                "0.5263493",
+                "0.26066726",
+                "0.017455745"
+            ]
+        },
+        {
+            "title": "MR. FOX",
+            "probabilities": [
+                "0.022727154",
+                "0.2149572",
+                "0.5943888",
+                "0.13992111",
+                "0.028005766"
+            ]
+        },
+        {
+            "title": "MR. MIACCA",
+            "probabilities": [
+                "0.015537595",
+                "0",
+                "0.8854272",
+                "0.059995636",
+                "0.038249422"
+            ]
+        },
+        {
+            "title": "MR. VINEGAR",
+            "probabilities": [
+                "0.072700046",
+                "0",
+                "0.7493127",
+                "0.07794943",
+                "0.09956053"
+            ]
+        },
+        {
+            "title": "NIX NOUGHT NOTHING",
+            "probabilities": [
+                "0.062622994",
+                "0.10854004",
+                "0.53967166",
+                "0.25571546",
+                "0.033449877"
+            ]
+        },
+        {
+            "title": "TEENY-TINY",
+            "probabilities": [
+                "0",
+                "0.06376755",
+                "0.9290934",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "title": "THE ASS, THE TABLE, AND THE STICK",
+            "probabilities": [
+                "0",
+                "0.011000733",
+                "0.59271693",
+                "0.3689045",
+                "0.02693386"
+            ]
+        },
+        {
+            "title": "THE CAT AND THE MOUSE",
+            "probabilities": [
+                "0",
+                "0",
+                "0.99591726",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "title": "THE CAULD LAD OF HILTON",
+            "probabilities": [
+                "0.04575963",
+                "0.086882226",
+                "0.70037144",
+                "0.13706304",
+                "0.029923614"
+            ]
+        },
+        {
+            "title": "THE FISH AND THE RING",
+            "probabilities": [
+                "0",
+                "0.048512064",
+                "0.4543492",
+                "0.359763",
+                "0.13688639"
+            ]
+        },
+        {
+            "title": "THE GOLDEN ARM",
+            "probabilities": [
+                "0",
+                "0.40679973",
+                "0.38610443",
+                "0.2038604",
+                "0"
+            ]
+        },
+        {
+            "title": "THE HISTORY OF TOM THUMB",
+            "probabilities": [
+                "0.02235688",
+                "0.05589121",
+                "0.6099025",
+                "0.2982538",
+                "0.0135956425"
+            ]
+        },
+        {
+            "title": "THE LAIDLY WORM OF SPINDLESTON HEUGH",
+            "probabilities": [
+                "0.02240328",
+                "0.2515913",
+                "0.23585784",
+                "0.4473868",
+                "0.042760793"
+            ]
+        },
+        {
+            "title": "THE MAGPIE'S NEST",
+            "probabilities": [
+                "0",
+                "0.27735052",
+                "0.6176727",
+                "0.102048345",
+                "0"
+            ]
+        },
+        {
+            "title": "THE MASTER AND HIS PUPIL",
+            "probabilities": [
+                "0",
+                "0.21189703",
+                "0.35533643",
+                "0.37323576",
+                "0.05881346"
+            ]
+        },
+        {
+            "title": "THE OLD WOMAN AND HER PIG",
+            "probabilities": [
+                "0.1349694",
+                "0",
+                "0.64654523",
+                "0.16926742",
+                "0.048649967"
+            ]
+        },
+        {
+            "title": "THE RED ETTIN",
+            "probabilities": [
+                "0",
+                "0.046287652",
+                "0.6093414",
+                "0.3017312",
+                "0.042333003"
+            ]
+        },
+        {
+            "title": "THE ROSE-TREE",
+            "probabilities": [
+                "0.053267334",
+                "0",
+                "0.42746982",
+                "0.4536344",
+                "0.06507137"
+            ]
+        },
+        {
+            "title": "THE STORY OF THE THREE BEARS",
+            "probabilities": [
+                "0",
+                "0",
+                "0.5288067",
+                "0.4438859",
+                "0.026389519"
+            ]
+        },
+        {
+            "title": "THE STORY OF THE THREE LITTLE PIGS",
+            "probabilities": [
+                "0",
+                "0",
+                "0.8578723",
+                "0.026246479",
+                "0.10682617"
+            ]
+        },
+        {
+            "title": "THE STRANGE VISITOR",
+            "probabilities": [
+                "0",
+                "0.12662563",
+                "0.6267015",
+                "0.16400096",
+                "0.081477"
+            ]
+        },
+        {
+            "title": "THE THREE HEADS OF THE WELL",
+            "probabilities": [
+                "0.047878124",
+                "0.050337113",
+                "0.3477406",
+                "0.500447",
+                "0.053597156"
+            ]
+        },
+        {
+            "title": "THE THREE SILLIES",
+            "probabilities": [
+                "0",
+                "0",
+                "0.7281895",
+                "0.18566282",
+                "0.07967987"
+            ]
+        },
+        {
+            "title": "THE WELL OF THE WORLD'S END",
+            "probabilities": [
+                "0",
+                "0.09299778",
+                "0.4771464",
+                "0.39308614",
+                "0.036232132"
+            ]
+        },
+        {
+            "title": "TITTY MOUSE AND TATTY MOUSE",
+            "probabilities": [
+                "0.01708842",
+                "0.22179939",
+                "0.7001332",
+                "0.02351119",
+                "0.03746783"
+            ]
+        },
+        {
+            "title": "TOM TIT TOT",
+            "probabilities": [
+                "0",
+                "0.06441107",
+                "0.6898442",
+                "0.21294273",
+                "0.032431867"
+            ]
+        },
+        {
+            "title": "WHITTINGTON AND HIS CAT",
+            "probabilities": [
+                "0.018121092",
+                "0.028219013",
+                "0.5813674",
+                "0.34418878",
+                "0.028103715"
+            ]
+        }
+    ]
+}

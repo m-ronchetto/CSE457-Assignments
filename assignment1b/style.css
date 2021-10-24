@@ -1,0 +1,40 @@
+.barChart {
+    fill: steelblue;
+    stroke: darkgray;
+    stroke-width: 1px;
+}
+/* .barChart rect:hover {
+    fill: seagreen;
+} */
+
+.lines {
+    stroke: steelblue;
+    fill: none
+}
+
+.areas {
+    stroke: none;
+    fill: steelblue
+}
+
+circle {
+    fill: steelblue;
+}
+
+.frame {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+/* Styles that clean up the layout;
+ * you can ignore these */
+div {
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 1em;
+}
+
+div, span {
+    padding: 1em;
+}

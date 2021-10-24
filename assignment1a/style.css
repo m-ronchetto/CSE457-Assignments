@@ -1,0 +1,27 @@
+body{
+    font-family: 'Source-Sans',  sans-serif;
+    padding: 30px 12% 30px 12%;
+}
+.bar{
+    fill: black;
+    stroke: white;
+    stroke-width: 1px;
+}
+#scatterplot{
+    border: 2px solid black;
+}
+h2{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+header{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c6c6c6;
+}
+header>p:last-child{
+    margin-bottom: 2px;
+}
+svg{
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
