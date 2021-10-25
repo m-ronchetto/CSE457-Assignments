@@ -5,28 +5,37 @@
         <meta charset="UTF-8">
         <title>CSE457: Assignment 3</title>
         <link rel="stylesheet" href="style.css"/>
-        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="radar-chart.min.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
         <!-- Font Imported from Google Fonts https://fonts.google.com/specimen/Source+Sans+Pro?query=source -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
         <script src="https://d3js.org/d3.v6.min.js"></script>
-        <script src="radar-chart.min.js"></script>
+        <script src="radar-chart.js"></script>
+        
     </head>
 
     <body>
         <nav>
-            <h1> Visualization Title</h1>
+            <h1> Fairy Tale Motifs</h1>
+            <div id="menu">
+                <p>
+                    <a href="index.html"><b>Home</b></a>
+                </p>
+                <p>
+                    <a href="process.html">Process</a>
+                </p>
+            </div>
         </nav>
         <div id = "title-selection">
         </div>
         <main>
             <div class = "side-bar"><h2></h2></div>
-            <div class = "chart-container"><h2>Common Themes</h2></div>
-            <!-- <script>
-                RadarChart.draw(".chart-container", data);
-            </script> -->
+            <div id="body">
+                <div id="chart"></div>
+            </div>
         </main> 
     </body>
 

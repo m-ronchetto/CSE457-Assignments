@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>CSE457: Assignment 3</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="radar-chart.min.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+        <!-- Font Imported from Google Fonts https://fonts.google.com/specimen/Source+Sans+Pro?query=source -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <nav>
+            <h1> Fairy Tale Motifs</h1>
+            <div id="menu">
+                <p>
+                    <a href="index.html">Home</a>
+                </p>
+                <p>
+                    <a href="process.html"><b>Process</b></a>
+                </p>
+            </div>
+        </nav>
+        <main>
+            <div id="process">
+                <p> This visualization was a way to explore common motifs within fairy tales and compare their popularity within the library of provided stories. One initial difficulty I had with this assignment was that
+                    I was not familiar with any text analysis techniques, so my initial research focused on learning what options were available and the basics of their implentation. I ended up working with LDA modeling,
+                    which is an algorithm that predicts the likelihood of topics being present in a piece based on a training set. I trained my LDA model on 211 other fairy tales in the public domain, from sources such as 
+                    Grim's Fairytales, Hans Christian Andersen's stories, and traditional fairy tales from Japan.  
+                </p>
+                <p> Though I wasn't initially sure how I wanted to visualize the data, one feature I kept in mind as I began sketching was the ability to compare the common themes in one story to the rest of them.
+                    I considered a bar graph that showed the mean probability of a theme appearing in the text, but I thought the mean gave an insufficient picture of the data that only showing all the storys' data could provide.
+                    Next, I considered having a series of line graphs that behaved in a similar way to my radar graph (displaying all the graphs on one plane to see the commonality of themes). As I researched other uses of this kind of graph,
+                    I opted against it as I saw that these line graphs tended to have significantly more than five points along their lines and usually were denoting something that had to do with time.
+                </p>
+                <p>
+                    I used <a href="https://gist.github.com/nbremer/6506614">this library</a> to create my base visualization, which I then revised to support version 6 of d3 and create a simpler and more legible display of the story set.
+                    I found it difficult to significantly deviate from this library, which I thought made the connnection of the visualization to the texts unclear at first. One design decision that came through in this final
+                    sketch and implementation was the choice to move the sidebar to the left side from the right. I think this shift allows the sidebar to be read before the graph, which allows it to be a primer to what the graph is 
+                    doing. On a longer-term project, I would have loved to watch others use my site to see if this interaction could be improved by incorporating the selection color on the graph elsewhere, such as the bolded title or in the sidebar.
+                </p>
+            </div>
+            <div class="row">
+                <img src="images/Desktop - 3.png">
+                <img src="images/Desktop - 2.png">
+                <img src="images/Desktop - 1.png">
+            </div>
+            <div>
+                <h2>Sources:</h2>
+                <p><b>Python:</b></p>
+                <p>-https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/#h2_9 </p>
+                <p>Beginners Guide to Topic Modeling in Python, Shivam Bansal, posted August 24, 2016, visited October 16, 2021</p>
+                <p>-https://stackoverflow.com/questions/61198009/classify-text-with-gensim-lda-model</p>
+                <p>Classify Text with Gensim LDA Model, StackOverflow, posted April 2020, visited October 17, 2021</p>
+                <p>-https://stackoverflow.com/questions/9170288/pretty-print-json-data-to-a-file-using-python</p>
+                <p>Pretty-Print JSON Data to a File using Python, posted February 2012, visited October 17, 2021</p>
+                <p><b>Javascript:</b></p>
+                <p>-https://gist.github.com/nbremer/6506614</p>
+                <p>D3.js - Radar Chart or Spider Chart - Adjusted from radar-chart-d3, posted September 2013, visited October 21, 2021</p>
+                <p>Initial library for radar visualization, modified by me to be compatible with d3 v6 and fit the goals of the visualization</p>
+                <p>-https://stackoverflow.com/questions/47776969/bring-a-svg-line-to-front</p>
+                <p>Bring a SVG line to front, posted January 2018, visited October 21, 2021</p>
+                <p>-https://stackoverflow.com/questions/21185725/how-to-pass-variables-to-event-listener-method-in-d3</p>
+                <p>How to pass variables to event listener method in d3, posted February 2014, visited October 23, 2021</p>
+                <p>-https://stackoverflow.com/questions/7627000/javascript-convert-string-to-safe-class-name-for-css</p>
+                <p>Javascript convert string to safe class name for css, posted 2011, visited October 23, 2021</p>
+            </div>
+        </main> 
+    </body>
+
+</html>

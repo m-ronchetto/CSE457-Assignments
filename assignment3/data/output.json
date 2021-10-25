@@ -1,5 +1,12 @@
 {
-    "topics": "[(0, '0.008*\"tree\" + 0.007*\"king\" + 0.005*\"sea\" + 0.004*\"happy\" + 0.003*\"dryad\" + 0.003*\"bird\" + 0.003*\"brother\" + 0.003*\"tailor\" + 0.003*\"hunter\" + 0.003*\"two\"'), (1, '0.005*\"child\" + 0.005*\"flower\" + 0.004*\"beautiful\" + 0.004*\"eye\" + 0.004*\"rose\" + 0.004*\"every\" + 0.004*\"young\" + 0.003*\"heart\" + 0.003*\"house\" + 0.003*\"life\"'), (2, '0.004*\"child\" + 0.004*\"woman\" + 0.004*\"house\" + 0.004*\"mother\" + 0.004*\"two\" + 0.004*\"home\" + 0.003*\"last\" + 0.003*\"beautiful\" + 0.003*\"boy\" + 0.003*\"door\"'), (3, '0.007*\"king\" + 0.006*\"princess\" + 0.004*\"father\" + 0.003*\"home\" + 0.003*\"soon\" + 0.003*\"way\" + 0.003*\"last\" + 0.003*\"never\" + 0.003*\"much\" + 0.003*\"found\"'), (4, '0.008*\"bottle\" + 0.005*\"lamp\" + 0.004*\"peasant\" + 0.004*\"year\" + 0.003*\"young\" + 0.003*\"people\" + 0.003*\"first\" + 0.003*\"glass\" + 0.003*\"new\" + 0.003*\"daughter\"')]",
+    "fulltopicdata": "[(0, '0.008*\"tree\" + 0.007*\"king\" + 0.005*\"sea\" + 0.004*\"happy\" + 0.003*\"dryad\" + 0.003*\"bird\" + 0.003*\"brother\" + 0.003*\"tailor\" + 0.003*\"hunter\" + 0.003*\"two\"'), (1, '0.005*\"child\" + 0.005*\"flower\" + 0.004*\"beautiful\" + 0.004*\"eye\" + 0.004*\"rose\" + 0.004*\"every\" + 0.004*\"young\" + 0.003*\"heart\" + 0.003*\"house\" + 0.003*\"life\"'), (2, '0.004*\"child\" + 0.004*\"woman\" + 0.004*\"house\" + 0.004*\"mother\" + 0.004*\"two\" + 0.004*\"home\" + 0.003*\"last\" + 0.003*\"beautiful\" + 0.003*\"boy\" + 0.003*\"door\"'), (3, '0.007*\"king\" + 0.006*\"princess\" + 0.004*\"father\" + 0.003*\"home\" + 0.003*\"soon\" + 0.003*\"way\" + 0.003*\"last\" + 0.003*\"never\" + 0.003*\"much\" + 0.003*\"found\"'), (4, '0.008*\"bottle\" + 0.005*\"lamp\" + 0.004*\"peasant\" + 0.004*\"year\" + 0.003*\"young\" + 0.003*\"people\" + 0.003*\"first\" + 0.003*\"glass\" + 0.003*\"new\" + 0.003*\"daughter\"')]",
+    "topics": [
+        "Nature",
+        "Beauty",
+        "Family",
+        "Royalty",
+        "Objects"
+    ],
     "storydata": [
         {
             "title": "BINNORIE",

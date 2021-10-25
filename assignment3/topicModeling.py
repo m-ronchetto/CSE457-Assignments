@@ -52,7 +52,7 @@ ldamodel = Lda(doc_term_matrix, num_topics=num_topics, id2word = dictionary, pas
 
 print(ldamodel.print_topics(num_topics=num_topics, num_words=8))
 
-#Source: https://stackoverflow.com/questions/61198009/classify-text-with-gensim-lda-model
+# Source: https://stackoverflow.com/questions/61198009/classify-text-with-gensim-lda-model
 # Classify Text with Gensim LDA Model, StackOverflow, posted April, 2020, visited October 17, 2021
 story_source_folder = "data/full_stories/"
 classification_files = os.listdir(story_source_folder)
@@ -68,7 +68,8 @@ for file_name in classification_files:
         title = split[0]
         titles.append(title)
 
-
+# Source: https://stackoverflow.com/questions/9170288/pretty-print-json-data-to-a-file-using-python
+# Pretty-Print JSON Data to a File using Python, posted February 2012, visited October 17, 2021
 probabilities = []
 for index, story in enumerate(stories): 
     exclude = set(string.punctuation)
